@@ -1,0 +1,19 @@
+/* DESIGN DNA
+ * Concept:   sleek, modern interface with a dark theme and a focus on functionality and usability
+ * Palette:   bg #121212, surface #1E1E1E, ink #FFFFFF, accent #4CAF50
+ * Type:      system-ui, 16px w400-500, 28px w700-800, 12px w500
+ * Motion:    220ms ease-out; sheets cubic-bezier(0.16,1,0.3,1)
+ * Depth:     shadow-[0_1px_3px_rgba(0,0,0,0.12),0_1px_2px_rgba(0,0,0,0.24)]
+ * Restraint: glassmorphism/gradients everywhere
+ */
+
+:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --ink: #FFFFFF;
+  --accent: #4CAF50;
+  --accent-ink: #FFFFFF;
+  --border: rgba(255, 255, 255, 0.15);
+}
+
+@import "tailwindcss";
